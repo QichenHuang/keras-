@@ -8,7 +8,10 @@ Keras是编写深度学习模型的一个高效工具，是一个高层次的神
 
 ## 目录
 - [第一个程序（Hello World）](./hello_world.md)
+- 模型
+	- [Sequential](./models/sequential.md)
 ## 引用
 [Keras官方网站](https://keras.io/)
 
+*本人边学边写，如有错漏之处，欢迎指正*
 （持续更新中）

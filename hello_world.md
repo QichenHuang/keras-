@@ -51,4 +51,5 @@ array([[0.6157647 ],
        [0.5762338 ]], dtype=float32)
 ```
 需要完整代码的，请查看[源代码](./hello_world.py)  
+下一篇(./models/sequential.md)
 [返回主页](./README.md)

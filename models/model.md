@@ -8,7 +8,8 @@
 	- `_keras_shape`：表示尺寸的元组
 	- `_keras_history`：应用在当前张量的上一个网络层
 - `Layer`：网络层，所有网络层的抽象基类。网络层对象是执行实际运算的模块，直接操作的数据对象是`Tensor`。
-**注意，`Layer`类定义了`__call__`方法，这表明`Layer`对象是可调用的。**调用`Layer`对象需要提供输入张量，然后其返回输出张量。
+**注意，`Layer`类定义了`__call__`方法，这表明`Layer`对象是可调用的。**
+调用`Layer`对象需要提供输入张量，然后其返回输出张量。
 - `Model`：模型，是组织各个网络层的类，可以看作是多个`Layer`对象的容器，网络结构必须用`Model`组织起来才能进行训练、
 评估等操作。上一篇提到的`Sequential`类继承自`Model`类，是一个只能线性叠加网络层的容器。
 
@@ -185,3 +186,7 @@ predict(x, batch_size=None, verbose=0, steps=None, callbacks=None,
 - `max_queue_size`：同[fit](#Model的训练)
 - `workers`：同[fit](#Model的训练)
 - `use_multiprocessing`：同[fit](#Model的训练)
+
+需要完整代码的，请查看[源代码](./model_examples.py)  
+[上一页](./sequential.md)  
+[返回主页](../README.md)  

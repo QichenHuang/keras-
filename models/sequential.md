@@ -43,6 +43,7 @@ model4.add(Dense(10,activation='softmax'))
 - 损失函数(loss)：可以是预定义的损失函数的字符串名字，也可以是损失函数本身。
 - 评估指标的列表(metrics)：可以是预定义的指标的字符串名字，也可以是指标函数本身。
 对于分类任务通常设为`metrics=['accuracy']`  
+
 其中，优化器和损失函数是必须的，评估指标是可选的
 ``` python
 model1.compile(optimizer='rmsprop',loss='categorical_crossentropy',metrics=['accuracy'])

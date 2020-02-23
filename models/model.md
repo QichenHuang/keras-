@@ -189,4 +189,5 @@ predict(x, batch_size=None, verbose=0, steps=None, callbacks=None,
 
 需要完整代码的，请查看[源代码](./model_examples.py)  
 [上一页](./sequential.md)  
+[下一页](../layers/layer.md)  
 [返回主页](../README.md)  

@@ -11,6 +11,8 @@ Keras是编写深度学习模型的一个高效工具，是一个高层次的神
 - 模型
 	- [Sequential](./models/sequential.md)
 	- [Model](./models/model.md)
+- 网络层
+	- [Layer](./layers/layer.md)
 ## 引用
 [Keras官方网站](https://keras.io/)
 
